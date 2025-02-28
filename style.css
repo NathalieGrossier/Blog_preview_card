@@ -2,6 +2,15 @@ body {
     background: hsl(47, 88%, 63%);
     
 & #box {
+    background:hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    min-width: 250px;
+    border-radius: 32px;
+    box-shadow: 8px 8px 8px black; 
+
  & #image {
 
  }
