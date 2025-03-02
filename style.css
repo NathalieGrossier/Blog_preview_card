@@ -121,11 +121,17 @@ height: 60%;
 font-size: smaller;
 
 & #image {
+ 
+ display: block;
+ 
+ overflow: hidden;
 
-
-
+  
   & img {
-   width: 150%;
+    display: block;
+    width: 120%;
+    margin-left: -30px;
+
 }
 }
 
