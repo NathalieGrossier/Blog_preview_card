@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     width: 350px;
     min-width: 250px;
+
     border-radius: 20px;
     box-shadow: 8px 8px black; 
     margin: auto;
@@ -86,8 +87,6 @@ padding-top: 8px;
    font-size: 16px;
    letter-spacing: 0.4px;
    padding-bottom: 8px;
-
-
  }
 
  & #sign {
@@ -101,8 +100,6 @@ padding-top: 8px;
 & img {
 border-radius: 50px;
 width: 35px;
-
-
 }
     }
 
@@ -115,3 +112,32 @@ width: 35px;
  }
 }
 }
+
+@media only screen and (max-width: 400px) {
+body {
+    & #box {
+   width: 77%;
+height: 60%;
+font-size: smaller;
+
+& #image {
+
+
+
+  & img {
+   width: 150%;
+}
+}
+
+
+& #date {
+  font-size: 13px;
+}
+& #html {
+  font-size: 21px;
+}
+    }
+  }
+}
+
+
